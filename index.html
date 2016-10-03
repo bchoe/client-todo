@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Client-todo</title>
+  <title>To-do-list</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -10,21 +10,15 @@
 
   <input type="text" id="inputBox" value="">
 
-  <div class="funcButton">
+  <!-- <button id="all" type="button" onclick="allFunc()">All</button> -->
 
-    <button id="all" type="button" onclick="allFunc()">All</button>
+  <!-- <button id="active" type="button" onclick="activeFunc()">Active</button> -->
 
-    <button id="active" type="button" onclick="activeFunc()">Active</button>
+  <!-- <button id="completed" type="button" onclick="completedFunc()">Completed</button> -->
 
-    <button id="completed" type="button" onclick="completedFunc()">Completed</button>
+  <button id="add" type="button" onclick="addFunc()">Add</button>
 
-    <button id="add" type="button" onclick="addFunc()">Add</button>
-
-    <div id='toDoList'></div>
-
-  </div>
-
-
+  <div id='toDoList'></div>
 
 <script src="app.js"></script>
 </body>
